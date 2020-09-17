@@ -9,7 +9,7 @@ items:
     labels:
       app: podinfo
     name: podinfo
-    namespace: default
+    namespace: podinfo-app
   spec:
     ports:
     - name: http
@@ -32,7 +32,7 @@ items:
     labels:
       app: podinfo
     name: podinfo
-    namespace: default
+    namespace: podinfo-app
   spec:
     minReadySeconds: 3
     progressDeadlineSeconds: 60
@@ -112,7 +112,7 @@ items:
     labels:
       app: podinfo
     name: podinfo
-    namespace: default
+    namespace: podinfo-app
   spec:
     maxReplicas: 4
     metrics:
