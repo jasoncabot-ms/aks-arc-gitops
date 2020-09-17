@@ -12,6 +12,7 @@ Demo repository containing configuration to show GitOps with an Arc-enabled k8s 
 * How do I onboard a new application?
 * How do I apply policies and governance to my clusters?
 * How do I monitor connected clusters?
+* How do I automate deploy key setup?
 
 # Todo
 
